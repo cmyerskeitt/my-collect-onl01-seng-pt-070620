@@ -10,7 +10,7 @@ def my_collect(array)
   
 end
  
- my_collect(array)
- my_collect(list) {|names| name.split(" ").first}
+ my_collect(students)
+ my_collect(languages) {|names| name.split(" ").first}
  
 
