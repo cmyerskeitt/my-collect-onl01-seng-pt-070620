@@ -1,3 +1,4 @@
+students = ["Tim Jones", "Tom Smith", "Sophie Johnson", "Antoin Miller"]
 
 
 def my_collect(array)
