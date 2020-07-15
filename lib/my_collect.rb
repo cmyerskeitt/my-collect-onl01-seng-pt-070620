@@ -7,14 +7,10 @@ def my_collect(array)
     collection << yield(array[i])
     i += 1
   end
+  
 end
  
- my_collect()
+ my_collect(array)
+ my_collect(list) {|names| name.split(" ").first}
  
- 
- 
-  array.each do |name|
-    name.split(" ").first
-  end
-end
 
